@@ -23,7 +23,7 @@ public class GameLoop implements Runnable {
 		while (running) {
 
 			long currentTime = System.nanoTime();
-			//DELTA = "CHANGE IN" (also represented by a triangle in physics) 
+			//DELTA = "CHANGE IN" (also symbolized by a triangle) 
 			deltaU += (currentTime - initialTime) / timeU;
 			deltaF += (currentTime - initialTime) / timeF;
 			initialTime = currentTime;
